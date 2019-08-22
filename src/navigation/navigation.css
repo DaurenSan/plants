@@ -1,0 +1,36 @@
+.NavContainer {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    background-color: rgba(166, 130, 86, 0.5);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    z-index: 1;
+}
+.Logo {
+    width: 80px;
+    height: 80px;
+}
+.Cart {
+    width: 30px;
+    height: 24px;
+}
+.BoxForLogo {
+    display: inline-block;
+}
+.Box {
+    display: flex;
+    font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif; 
+    font-weight: bold;
+    font-size: 30px;
+    white-space: nowrap;
+    color:#26160C;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 40px;
+}
+.BoxItem {
+    vertical-align: middle;
+    margin: 20px 30px;
+}

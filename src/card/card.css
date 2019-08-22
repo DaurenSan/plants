@@ -1,0 +1,19 @@
+.Card {
+    font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif; 
+    border-radius: 15px;
+    box-sizing: border-box;
+    box-shadow: 0 15px 15px 0 rgba(0,0,0,0.16), 0 0 0 15px rgba(0,0,0,0.08);
+    width: 20%;
+    height: 60%;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 25px;
+}
+.cardImage {
+  position: absolute;
+  overflow: hidden;
+  width:100%;
+  height: 60%;
+  box-sizing: border-box; 
+  border-radius: 15px;
+}
